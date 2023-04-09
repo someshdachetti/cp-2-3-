@@ -1,5 +1,5 @@
 const Box = (props) => {
-  const { color height width text } = props;
+  const { color,height, width, text } = props;
   return (
     <div>
       <div>
@@ -18,13 +18,13 @@ const element = (
     <h1 className="heading">Boxes</h1>
     <div className="spaceing_box">
       
-      <Box color=" #fbbf24", height='100px', width='100px' />
+      <Box color=" #fbbf24" height='100px' width='100px' />
       <Box text="small" />
 
-       <Box color="#38bdf8", height='150px', width='150px' />
+       <Box color="#38bdf8" height='150px' width='150px' />
       <Box text="medium" />
 
-<Box color="#ec4899", height='200px', width='200px' />      
+<Box color="#ec4899" height='200px' width='200px' />      
       <Box text="large" />
        
        
