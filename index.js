@@ -1,5 +1,5 @@
 const Box = (props) => {
-  const { color, height, width, text } = props;
+  const { color height width text } = props;
   return (
     <div>
       <div>
